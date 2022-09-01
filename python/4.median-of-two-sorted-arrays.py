@@ -18,5 +18,7 @@ class Solution(object):
         else:
             return (nums[len(nums) // 2 - 1] + nums[len(nums) // 2])/2.0
         
+
+# sorted　は O(NlogN)なのでだめ.
 # @lc code=end
 
